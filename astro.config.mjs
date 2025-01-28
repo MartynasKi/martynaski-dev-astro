@@ -20,4 +20,8 @@ export default defineConfig({
     },
 
     integrations: [tailwind()],
+
+    build: {
+        inlineStylesheets: "always",
+    },
 });
