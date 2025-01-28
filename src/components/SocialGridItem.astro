@@ -1,8 +1,8 @@
 ---
 const { href, target = '_blank', title } = Astro.props;
 ---
-<div class="flex flex-col items-center justify-center bg-slate-100 rounded-md p-2 shadow-sm" title={title}>
-    <a href={href} target={target}>
+<div class="flex flex-col items-center justify-center bg-slate-100 rounded-md p-2 shadow-sm">
+    <a href={href} target={target} title={title}>
         <slot />
     </a>
 </div>

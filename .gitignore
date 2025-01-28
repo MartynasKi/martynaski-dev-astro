@@ -30,3 +30,5 @@ pnpm-debug.log*
 # vscode stuff
 .vscode/
 .history/
+
+_/
