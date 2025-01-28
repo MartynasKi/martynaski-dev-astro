@@ -1,0 +1,67 @@
+---
+import SocialGridItem from '@/components/SocialGridItem.astro';
+
+// icons
+import IconMedium from '@/components/svg-icons/IconMedium.astro';
+import IconDiscord from '@/components/svg-icons/IconDiscord.astro';
+import IconEmail from '@/components/svg-icons/IconEmail.astro';
+import IconReddit from '@/components/svg-icons/IconReddit.astro';
+import IconX from '@/components/svg-icons/IconX.astro';
+import IconLinkedIn from '@/components/svg-icons/IconLinkedIn.astro';
+import IconGithub from '@/components/svg-icons/IconGithub.astro';
+import IconDuolingo from '@/components/svg-icons/IconDuolingo.astro';
+import IconEtoro from '@/components/svg-icons/IconEtoro.astro';
+import IconLaracasts from '@/components/svg-icons/IconLaracasts.astro';
+import IconKofi from '@/components/svg-icons/IconKofi.astro';
+import IconWhatsapp from '@/components/svg-icons/IconWhatsapp.astro';
+import IconTelegram from '@/components/svg-icons/IconTelegram.astro';
+import IconUdemy from '@/components/svg-icons/IconUdemy.astro';
+import IconSkillshare from '@/components/svg-icons/IconSkillshare.astro';
+import IconStackoverflow from '@/components/svg-icons/IconStackoverflow.astro';
+import IconCodepen from '@/components/svg-icons/IconCodepen.astro';
+import IconDevTo from '@/components/svg-icons/IconDevTo.astro';
+---
+
+<div class="grid grid-cols-2 min-[400px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-5 opacity-90" id="social-grid">
+    <SocialGridItem href="mailto:hello@martynaski.dev" target="_blank" title="E-mail">
+        <IconEmail />
+    </SocialGridItem>
+    <SocialGridItem href="https://wa.me/37062030572" target="_blank" title="Whatsapp">
+        <IconWhatsapp />
+    </SocialGridItem>
+    <SocialGridItem href="https://medium.com/@strangecash" target="_blank" title="Medium">
+        <IconMedium />
+    </SocialGridItem>
+    <SocialGridItem href="https://discordapp.com/users/1096037515665870918" target="_blank" title="Discord">
+        <IconDiscord />
+    </SocialGridItem>
+    <SocialGridItem href="https://t.me/martynaski" target="_blank" title="Telegram">
+        <IconTelegram />
+    </SocialGridItem>
+    <SocialGridItem href="https://www.reddit.com/user/MartynasKi" target="_blank" title="Reddit">
+        <IconReddit />
+    </SocialGridItem>
+    <SocialGridItem href="https://x.com/strcash_medium" target="_blank" title="X">
+        <IconX />
+    </SocialGridItem>
+    <SocialGridItem href="https://www.duolingo.com/profile/MartynasKi.dev" target="_blank" title="Duolingo">
+        <IconDuolingo />
+    </SocialGridItem>
+    <SocialGridItem href="https://etoro.tw/4ghM8vg" target="_blank" title="eToro">
+        <IconEtoro />
+    </SocialGridItem>
+    <SocialGridItem href="https://laracasts.com/@MartynasKi" target="_blank" title="Laracasts">
+        <IconLaracasts />
+    </SocialGridItem>
+    <SocialGridItem href="https://www.udemy.com/user/martynas-52/" target="_blank" title="Udemy">
+        <IconUdemy />
+    </SocialGridItem>
+    <SocialGridItem href="https://www.skillshare.com/en/profile/Martynas-Ki./1891022" target="_blank" title="Skillshare">
+        <div class="opacity-50 hover:opacity-100 transition-opacity duration-300">
+            <IconSkillshare />
+        </div>
+    </SocialGridItem>
+    <SocialGridItem href="https://ko-fi.com/martynasjustina" target="_blank" title="Ko-fi">
+        <IconKofi />
+    </SocialGridItem>
+</div>

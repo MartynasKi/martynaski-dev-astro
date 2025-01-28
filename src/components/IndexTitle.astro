@@ -1,0 +1,19 @@
+---
+import { Image } from 'astro:assets';
+import lookingIcon from '@/assets/looking.webp';
+---
+<div class="flex flex-col items-center justify-center gap-2">
+    <div class="w-6">
+        <Image
+            src={lookingIcon}
+            alt=""
+            class="antialiased"
+            style="image-rendering: smooth"
+            width={64}
+            height={64}
+        />
+    </div>
+    <h2 class="text-center text-xl font-bold leading-5 sm:leading-none">
+        Full-stack developer &amp; blogger
+    </h2>
+</div>
